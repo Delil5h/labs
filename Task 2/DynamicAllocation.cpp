@@ -16,7 +16,7 @@ int main (){
     cin >> *dynamicInteger;
      
      cout << "Enter the value of the dynamically allocated string:";
-     cin.ignore();// should ignore the newline character left in the input buffer 
+     cin.ignore(); 
      getline(cin, *dynamicString);
 
      // display the values on the console
